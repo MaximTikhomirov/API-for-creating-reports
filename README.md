@@ -2,4 +2,5 @@
 ## Микросервис по генерации отчетов на основании истории по результатам продаж за месяц
 
 ### Архитектура
-![image](https://github.com/MaximTikhomirov/API-for-creating-reports/assets/140896345/17d2903c-63c5-429e-bb6b-2d5872001d02)
+![image](https://github.com/MaximTikhomirov/API-for-creating-reports/assets/140896345/3fd5feaa-01a8-4e05-a90a-5ad5ac11f864)
+
