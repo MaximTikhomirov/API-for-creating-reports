@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{9FAC42E6-0343-4859-AD7A-5937D18BF3A4}"
+	ProjectSection(SolutionItems) = preProject
+		docker-compose.yml = docker-compose.yml
+		.gitignore = .gitignore
+		.gitlab-ci.yaml = .gitlab-ci.yaml
+		Directory.Build.Props = Directory.Build.Props
+		Directory.Packages.Props = Directory.Packages.Props
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{22EA547F-AAB8-4E52-8AF3-430FA4A89B9A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{3A69D396-74E5-44FD-9C4E-02688F5D796C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MAI.Backend", "MAI.Backend\MAI.Backend.csproj", "{AC4D8735-DBA8-4D19-A924-F4F83191E9AD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{19F15E72-3C53-483C-A5E9-A0DE795D727B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19F15E72-3C53-483C-A5E9-A0DE795D727B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19F15E72-3C53-483C-A5E9-A0DE795D727B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19F15E72-3C53-483C-A5E9-A0DE795D727B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC4D8735-DBA8-4D19-A924-F4F83191E9AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC4D8735-DBA8-4D19-A924-F4F83191E9AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC4D8735-DBA8-4D19-A924-F4F83191E9AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC4D8735-DBA8-4D19-A924-F4F83191E9AD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{AC4D8735-DBA8-4D19-A924-F4F83191E9AD} = {22EA547F-AAB8-4E52-8AF3-430FA4A89B9A}
+	EndGlobalSection
+EndGlobal

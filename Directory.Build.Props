@@ -1,0 +1,19 @@
+﻿<Project>
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <ImplicitUsings>enbale</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <LangVersion>preview</LangVersion>
+        <IsPackable>false</IsPackable>
+        <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+        <NoWarn>CS1591</NoWarn>
+    </PropertyGroup> 
+    <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+        <DocumentationFile>bin\Debug\$(AssemblyName).xsl</DocumentationFile>
+    </PropertyGroup>
+    <ItemGroup>
+        <InternalsVisibleTo Include="$(AssemblyName).UnitTests"/>
+        <InternalsVisibleTo Include="$(AssemblyName).IntegrationTests"/>
+        <InternalsVisibleTo Include="$(AssemblyName).E2ETests"/>
+    </ItemGroup>
+</Project>
